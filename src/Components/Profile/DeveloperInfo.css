@@ -13,6 +13,20 @@
   font-weight: 700;
   line-height: 160%; /* 44.8px */
 }
+
+.infoContainer h6 {
+  color: #212121;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 36.8px */
+}
+
+.descriptionBox {
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+
 .descriptionBox p {
   padding-left: 20px;
   color: #212121;
@@ -20,4 +34,47 @@
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 28.8px */
+}
+
+.experienceContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.experience {
+  border-radius: 20px;
+  border: 1px solid #dcdce1;
+  background: #fff;
+  padding: 18px;
+}
+
+.experience div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience div p:nth-child(1) {
+  color: #212121;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 32.2px */
+}
+
+.experience p {
+  color: #212121;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+
+.experience div p:nth-child(2) {
+  color: #0085ff;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
 }
