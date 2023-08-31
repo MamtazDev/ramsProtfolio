@@ -5,10 +5,10 @@ import "./DeveloperInfo.css";
 const DeveloperInfo = () => {
   return (
     <div className="row">
-      <div className="col-5">
+      <div className="col-12 col-lg-5">
         <img src={man} alt="" />
       </div>
-      <div className="col-7">
+      <div className="col-12 col-lg-7">
         <div className="infoContainer">
           <h3>Ricardo Mejia Silva</h3>
           <h5>Web/Mobile Developer</h5>
@@ -24,31 +24,33 @@ const DeveloperInfo = () => {
             </p>
           </div>
           <div>
-            <h6>Work Experience</h6>
+            <h6 style={{ marginBottom: "7px" }}>Work Experience</h6>
 
-            <div>
-              <div>
-                <p>WebstaurantStore</p>
-                <p>September 2021 - present</p>
+            <div className="experienceContainer">
+              <div className="experience">
+                <div>
+                  <p>WebstaurantStore</p>
+                  <p>September 2021 - present</p>
+                </div>
+                <p>Front-end/Mobile Developer</p>
               </div>
-              <p>Front-end/Mobile Developer</p>
-            </div>
 
-            <div>
-              <div>
-                <p>
-                  Zuliy <span>(Contract)</span>
-                </p>
-                <p>June 2022 - April 2022</p>
+              <div className="experience">
+                <div>
+                  <p>
+                    Zuliy <span>(Contract)</span>
+                  </p>
+                  <p>June 2022 - April 2022</p>
+                </div>
+                <p>Email Developer</p>
               </div>
-              <p>Email Developer</p>
-            </div>
-            <div>
-              <div>
-                <p>Vital Visuals</p>
-                <p>April 2017 - October 2021</p>
+              <div className="experience">
+                <div>
+                  <p>Vital Visuals</p>
+                  <p>April 2017 - October 2021</p>
+                </div>
+                <p>Video/Web/Email Developer</p>
               </div>
-              <p>Video/Web/Email Developer</p>
             </div>
           </div>
         </div>
