@@ -30,3 +30,20 @@
   line-height: 175%; /* 35px */
   max-width: 862px;
 }
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 688px) {
+  .bannerContainer h1 {
+    font-size: 35px;
+    text-align: unset;
+  }
+  .bannerContainer {
+    padding-top: 193px;
+  }
+  .bannerContainer p {
+    font-size: 14px;
+    text-align: unset;
+  }
+}

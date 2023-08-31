@@ -22,3 +22,10 @@ body {
 .container {
   max-width: 1170px;
 }
+
+.navbar-toggler {
+  background-image: url("../src/assets/navButton.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

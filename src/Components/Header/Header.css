@@ -58,3 +58,28 @@
   font-weight: 700;
   line-height: normal;
 }
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .menuItems {
+    margin-left: unset;
+    display: flex;
+    gap: unset;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
+  .menuItems {
+    margin-left: unset;
+    display: flex;
+    gap: unset;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+}
