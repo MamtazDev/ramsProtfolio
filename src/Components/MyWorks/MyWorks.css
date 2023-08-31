@@ -71,6 +71,7 @@
   font-weight: 500;
   line-height: 130%; /* 20.8px */
   text-decoration-line: underline;
+  margin-right: 7px;
 }
 
 .webContainer {
@@ -86,4 +87,32 @@
   font-weight: 700;
   line-height: 175%; /* 61.25px */
   margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 688px) {
+  .cardTextContainer {
+    height: 108px;
+    bottom: 50px;
+  }
+
+  .cardTextContainer h6 {
+    font-size: 16px;
+  }
+  .cardTextContainer p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .myWorksContainer h3 {
+    font-size: 30px;
+  }
+  .mobileAppsContainer h4 {
+    margin-top: 40px;
+    font-size: 22px;
+  }
+  .webContainer h4 {
+    font-size: 22px;
+  }
 }

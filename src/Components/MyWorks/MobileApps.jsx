@@ -20,14 +20,14 @@ const MobileApps = () => {
     <div className="mobileAppsContainer">
       <h4>Mobile Apps</h4>
       <div className="row">
-        <div className="col-2"></div>
+        <div className="col-12 col-lg-2"></div>
         {cardContent.map((item, idx) => (
-          <div className="col-4" key={idx}>
+          <div className=" col-12 col-md-6 col-lg-4" key={idx}>
             <WorksCard content={item} />
           </div>
         ))}
 
-        <div className="col-2"></div>
+        <div className="col-12 col-lg-2"></div>
       </div>
     </div>
   );

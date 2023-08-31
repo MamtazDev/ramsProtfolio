@@ -27,7 +27,7 @@ const Emails = () => {
       <h4>Emails</h4>
       <div className="row">
         {cardContent.map((item, idx) => (
-          <div className="col-4" key={idx}>
+          <div className="col-12 col-md-6 col-lg-4" key={idx}>
             <WorksCard content={item} />
           </div>
         ))}
