@@ -53,7 +53,7 @@ const SkillsInfo = () => {
 
   return (
     <div className="row skillInfoContainer">
-      <div className="col-6">
+      <div className="col-12 col-lg-6  m-0">
         <div className="mySubjectContainer">
           <h2>My subject matter expertise</h2>
           <p>
@@ -63,7 +63,7 @@ const SkillsInfo = () => {
           <button className="btn">Get in Touch</button>
         </div>
       </div>
-      <div className="col-6">
+      <div className="col-12 col-lg-6  m-0">
         <div className="row skillInfoCards">
           {skills.map((item, idx) => (
             <SkillInfoCard key={idx} skill={item} />
