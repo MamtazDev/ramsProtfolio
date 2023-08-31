@@ -32,6 +32,13 @@
   line-height: normal;
 }
 
+.nav-item a:hover {
+  color: white !important;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
 .menuItems {
   margin-left: 100px;
   display: flex;

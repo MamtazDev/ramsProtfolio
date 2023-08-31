@@ -2,6 +2,7 @@ import React from "react";
 import rightArrow from "../../assets/ArrowRight.png";
 
 const WorksCard = ({ content }) => {
+    
   return (
     <div className="workCardContainer">
       <div className="cardImageContainer">

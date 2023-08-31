@@ -4,11 +4,11 @@ import "./DeveloperInfo.css";
 
 const DeveloperInfo = () => {
   return (
-    <div className="row">
-      <div className="col-12 col-lg-5">
-        <img src={man} alt="" />
+    <div className="row profileGap">
+      <div className="col-12 col-lg-5 p-0 m-0">
+        <img src={man} alt="" className="w-100 h-100" />
       </div>
-      <div className="col-12 col-lg-7">
+      <div className="col-12 col-lg-7 p-0 m-0">
         <div className="infoContainer">
           <h3>Ricardo Mejia Silva</h3>
           <h5>Web/Mobile Developer</h5>

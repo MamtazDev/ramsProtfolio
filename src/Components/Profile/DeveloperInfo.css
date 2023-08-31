@@ -1,3 +1,7 @@
+.infoContainer {
+  padding-left: 50px;
+}
+
 .infoContainer h3 {
   color: #212121;
   font-size: 55px;
@@ -20,6 +24,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: 160%; /* 36.8px */
+}
+
+.profileGap {
+  align-items: center;
 }
 
 .descriptionBox {
