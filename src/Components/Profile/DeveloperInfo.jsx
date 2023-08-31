@@ -8,7 +8,7 @@ const DeveloperInfo = () => {
       <div className="col-12 col-lg-5">
         <img src={man} alt="" />
       </div>
-      <div className="col-7">
+      <div className="col-12 col-lg-7">
         <div className="infoContainer">
           <h3>Ricardo Mejia Silva</h3>
           <h5>Web/Mobile Developer</h5>
