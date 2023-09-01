@@ -13,3 +13,9 @@
 .activeCrums {
   color: #0085ff !important;
 }
+
+@media only screen and (max-width: 688px) {
+  .breadcrumsContainer p {
+    font-size: 16px;
+  }
+}

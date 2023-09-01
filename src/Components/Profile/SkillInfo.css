@@ -1,3 +1,9 @@
+.developerContainer {
+  background: url("../../assets/backgroundLine1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .skillInfoContainer {
   margin-top: 130px;
 }

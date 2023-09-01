@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const { pathname } = useLocation();
@@ -9,13 +9,13 @@ const Header = () => {
     <div className="container ">
       <nav className="navbar navbar-expand-lg navbarContainer">
         <div className="container-fluid" style={{ padding: "unset" }}>
-          <a
+          <Link
             className="navbar-brand"
-            href="#"
+            to="/"
             style={{ color: `${pathname === "/project" && "#000"}` }}
           >
             PortFolio<span className="dot">.</span>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -30,41 +30,41 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 menuItems">
               <li className="nav-item">
-                <a
-                  className="nav-link "
+                <Link
+                  className="nav-link notFocus "
                   aria-current="page"
-                  href="#"
+                  to="#"
                   style={{ color: `${pathname === "/project" && "#000"}` }}
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#"
+                <Link
+                  className="nav-link notFocus"
+                  to="#"
                   style={{ color: `${pathname === "/project" && "#000"}` }}
                 >
                   Skill
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#"
+                <Link
+                  className="nav-link notFocus"
+                  to="#"
                   style={{ color: `${pathname === "/project" && "#000"}` }}
                 >
                   Project
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#"
+                <Link
+                  className="nav-link notFocus"
+                  to="#"
                   style={{ color: `${pathname === "/project" && "#000"}` }}
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
 

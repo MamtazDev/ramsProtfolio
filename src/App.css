@@ -29,3 +29,16 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
+.navbar-toggler-icon {
+  background-image: unset;
+}
+
+.notFocus:focus {
+  color: #0085ff;
+}
+
+.navbar-brand:focus {
+  color: white !important;
+}
+

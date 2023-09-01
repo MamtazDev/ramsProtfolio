@@ -18,7 +18,7 @@
 }
 
 .imageContainer {
-  height: 738px;
+  max-height: 738px;
   margin-top: 55px;
 }
 
@@ -65,4 +65,35 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+@media only screen and (max-width: 688px) {
+  .buttonContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    margin-bottom: 130px;
+  }
+
+  .projectContentContainer h3 {
+    font-size: 35px;
+  }
+  .projectContentContainer p {
+    font-size: 14px;
+  }
+  .imageContainer {
+    margin-top: 30px;
+  }
+  .buttonContainer button:nth-child(1) {
+    font-size: 16px;
+  }
+  .buttonContainer button:nth-child(2) {
+    font-size: 16px;
+  }
+  .buttonContainer {
+    margin-bottom: 60px;
+  }
 }
