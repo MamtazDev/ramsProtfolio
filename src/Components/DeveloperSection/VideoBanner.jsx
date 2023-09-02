@@ -9,7 +9,13 @@ const VideoBanner = () => {
       <h6>Web/Mobile Developer</h6>
       <div className="videoContainer">
         <img src={videoBanner} alt="" className="w-100 h-100" />
-        <img src={videoIcon} alt="" className="playIcon" />
+
+        <a
+          href="https://baynews9.com/fl/tampa/news/2023/07/14/wingai-uses-artificial-intelligence-to-be-a-wingman-on-dating-apps"
+          target="_blank"
+        >
+          <img src={videoIcon} alt="" className="playIcon" />
+        </a>
       </div>
     </div>
   );

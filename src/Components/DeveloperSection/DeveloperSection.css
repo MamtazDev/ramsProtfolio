@@ -108,3 +108,31 @@
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
+
+@media only screen and (max-width: 688px) {
+  .videoBannerContainer h3 {
+    font-size: 30px;
+  }
+  .videoBannerContainer h6 {
+    font-size: 20px;
+  }
+  .featuredOnContainer h5 {
+    font-size: 18px;
+  }
+  .workExperienceContainer h5 {
+    font-size: 18px;
+  }
+  .workExpContainer h6 {
+    font-size: 11px;
+  }
+  .workExpContainer h5 {
+    font-size: 16px !important;
+  }
+
+  .workExpContainer p {
+    font-size: 14px;
+  }
+  .workExpContainer span {
+    font-size: 12px;
+  }
+}

@@ -48,11 +48,17 @@
 }
 
 .cardTextContainer h6 {
+  transition: 0.3 ease;
+}
+
+.cardTextContainer h6 a {
   color: #212121;
   font-size: 23px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%; /* 29.9px */
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .cardTextContainer p {
@@ -72,6 +78,10 @@
   line-height: 130%; /* 20.8px */
   text-decoration-line: underline;
   margin-right: 7px;
+}
+
+.cardTextContainer h6:hover {
+  transform: scale(1.02);
 }
 
 .webContainer {

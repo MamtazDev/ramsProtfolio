@@ -16,10 +16,16 @@
   background: #f5f6f6;
   padding: 22px;
   cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.skillBox p {
+  transition: 0.5s ease;
 }
 
 .skillBox:hover {
-  background: var(--L, linear-gradient(90deg, #31a8ff 0%, #0085ff 100%));
+  /* background: linear-gradient(90deg, #31a8ff 0%, #0085ff 100%); */
+  background: #1594ff;
 }
 
 .skillBox:hover p {

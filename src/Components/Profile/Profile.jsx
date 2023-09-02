@@ -7,8 +7,8 @@ const Profile = () => {
   return (
     <div className="developerContainer" style={{ marginTop: "130px" }}>
       <div className="container ">
-        <DeveloperInfo />
-        {/* <DeveloperSection /> */}
+        {/* <DeveloperInfo /> */}
+        <DeveloperSection />
         <SkillsInfo />
       </div>
     </div>
