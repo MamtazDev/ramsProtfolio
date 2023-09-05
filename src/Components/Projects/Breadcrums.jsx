@@ -1,11 +1,14 @@
 import React from "react";
 import "./Breadcrums.css";
 import arrows from "../../assets/dobleRightArrow.png";
+import { Link } from "react-router-dom";
 
 const Breadcrums = () => {
   return (
     <div className="breadcrumsContainer">
-      <p>Home</p>
+      <p>
+        <Link to="/">Home</Link>
+      </p>
       <img src={arrows} alt="" />
       <p className="activeCrums">Project</p>
     </div>
