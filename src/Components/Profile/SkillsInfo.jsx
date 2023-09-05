@@ -63,8 +63,8 @@ const SkillsInfo = () => {
           <button className="btn">Get in Touch</button>
         </div>
       </div>
-      <div className="col-12 col-lg-6  m-0">
-        <div className="row skillInfoCards">
+      <div className="col-12 col-lg-6  m-0 p-0">
+        <div className="d-flex flex-wrap justify-content-center skillInfoCards">
           {skills.map((item, idx) => (
             <SkillInfoCard key={idx} skill={item} />
           ))}
