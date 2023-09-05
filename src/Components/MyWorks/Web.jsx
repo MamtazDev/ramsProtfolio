@@ -31,7 +31,7 @@ const Web = () => {
       <div className="row">
         {cardContent.map((item, idx) => (
           <div className="col-12 col-md-6 col-lg-4" key={idx}>
-            <WorksCard content={(item)} />
+            <WorksCard content={item} />
           </div>
         ))}
       </div>

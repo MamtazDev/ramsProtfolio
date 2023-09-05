@@ -7,7 +7,7 @@ const WorksCard = ({ content }) => {
     <Link to={`/project/${content.id}`}>
       <div className="workCardContainer">
         <div className="cardImageContainer">
-          <img src={content?.image} alt="" className="w-100 h-100" />
+          <img src={content?.image} alt="" className="img-fluid" />
         </div>
         <div className="cardTextContainer">
           <h6>
