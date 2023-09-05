@@ -7,16 +7,19 @@ import web3 from "../../assets/monitor3.png";
 const Web = () => {
   const cardContent = [
     {
+      id: "web-1",
       image: web1,
       title: "Clark Associates",
       skill: "Company page",
     },
     {
+      id: "web-2",
       image: web2,
       title: "WebstaurantStore",
       skill: "JavaScript App",
     },
     {
+      id: "web-3",
       image: web3,
       title: "New Roots",
       skill: "Landing Page",
@@ -28,7 +31,7 @@ const Web = () => {
       <div className="row">
         {cardContent.map((item, idx) => (
           <div className="col-12 col-md-6 col-lg-4" key={idx}>
-            <WorksCard content={item} />
+            <WorksCard content={(item)} />
           </div>
         ))}
       </div>

@@ -4,17 +4,25 @@
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 65px */
+  line-height: 130%;
+  /* 65px */
   text-align: center;
   margin-bottom: 10px;
 }
+
 .projectContentContainer p {
   color: #212121;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 130%; /* 28.6px */
+  line-height: 130%;
+  /* 28.6px */
   text-align: center;
+}
+
+
+.projectCategory {
+  max-width: 558px;
 }
 
 .imageContainer {
@@ -81,18 +89,23 @@
   .projectContentContainer h3 {
     font-size: 35px;
   }
+
   .projectContentContainer p {
     font-size: 14px;
   }
+
   .imageContainer {
     margin-top: 30px;
   }
+
   .buttonContainer button:nth-child(1) {
     font-size: 16px;
   }
+
   .buttonContainer button:nth-child(2) {
     font-size: 16px;
   }
+
   .buttonContainer {
     margin-bottom: 60px;
   }

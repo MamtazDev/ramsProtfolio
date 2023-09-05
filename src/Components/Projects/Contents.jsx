@@ -1,14 +1,15 @@
 import React from "react";
 import "./Content.css";
 import image from "../../assets/contentImage.png";
+import image2 from "../../assets/contentImage1.png"
 
-const Contents = () => {
+const Contents = ({ id }) => {
   return (
     <div className="projectContentContainer">
-      <h3>Clark Associates</h3>
-      <p>React App</p>
+      <h3>{id === "mobile-app-2" ? "New Roots" : "Clark Associates"}</h3>
+      <p className="mx-auto projectCategory">{id ==="mobile-app-2" ? "Remade a responsive web page for a stakeholder by usingHTML,TailWind, Next.JS & TypeScript.":"React App"}</p>
       <div className="imageContainer">
-        <img src={image} alt="" />
+        <img src={id==="mobile-app-2" ? image2:image} alt="" />
       </div>
       <p>
         Lorem ipsum dolor sit amet consectetur. Fames a velit sit mi egestas at.

@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const WorksCard = ({ content }) => {
   return (
-    <Link to="/project">
+    <Link to={`/project/${content.id}`}>
       <div className="workCardContainer">
         <div className="cardImageContainer">
-          <img src={content.image} alt="" className="w-100 h-100" />
+          <img src={content?.image} alt="" className="w-100 h-100" />
         </div>
         <div className="cardTextContainer">
           <h6>

@@ -6,11 +6,13 @@ import image2 from "../../assets/mobileapps2.png";
 const MobileApps = () => {
   const cardContent = [
     {
+      id:"mobile-app-1",
       image: image1,
       title: "WingAI",
       skill: "React App",
     },
     {
+      id:"mobile-app-2",
       image: image2,
       title: "WebstaurantStore",
       skill: "JavaScript App",
