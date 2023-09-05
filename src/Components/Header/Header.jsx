@@ -49,13 +49,13 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
+                <a
                   className="nav-link notFocus"
-                  to="#"
+                  href="#project"
                   style={{ color: `${pathname === "/project" && "#000"}` }}
                 >
                   Project
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
                 <Link
